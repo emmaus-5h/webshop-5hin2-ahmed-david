@@ -26,3 +26,5 @@ insert into products (name, description, code, price) values ('Nederlands Elftal
 insert into products (name, description, code, price) values ('Manchester United', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
 insert into products (name, description, code, price) values ('Chelsea', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
 insert into products (name, description, code, price) values ('Bayern Munchen', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
+insert into products (name, description, code, price) values ('AC Milan', 'Plane shirt', '6578365796-2', 15);
+insert into products (name, description, code, price) values ('Juventus', 'bus', 'osman-2', 20); 
