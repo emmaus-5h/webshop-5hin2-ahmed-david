@@ -45,6 +45,7 @@ CREATE table deliverytime (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   deliverytime INTEGER
 );
+
 --
 -- populate with data
 --
@@ -54,7 +55,7 @@ CREATE table deliverytime (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price, quantity, deliverytime_id, resell, stock_id) values ('Barcelona', 'Barcelona Retro Thuistenue 1998/99', '816905633-0', 99.99, '30', '2', '75', '2');
+insert into products (name, description, code, price, quantity, deliverytime_id, resell, stock_id) values ('Barcelona', 'Barcelona Retro Thuistenue 1998/99', '816905633-0', 99.99, '30', '2', '75','2');
 
 insert into products (name, description, code, price, quantity, deliverytime_id, resell, stock_id) values ('Real Madrid', 'Real Madrid Retro Thuistenue 1998/99', '077030122-3', 89.99, '26', '2', '70', '2');
 
@@ -88,4 +89,3 @@ insert into deliverytime (deliverytime) values ('2 months');
 --in stock
 insert into stock (instock) values ('verkrijgbaar');
 insert into stock (instock) values ('Bijna op');
-
